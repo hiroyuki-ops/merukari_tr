@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  purchase_price: 1
+  expecting_selling_price: 1
+  selling_price: 1
+  average_selling_price: 1
+  shipping: 1
+  sales: 1
+  number_of_products_sold: 1
+  monthly_listings: 1
+  number_of_listings_this_month: 1
+  current_listingds: 1
+  total_amount_of_shelf_inventory: 1
+  turnover_rate_for_the_current_month: 1
+  expedted_sales_for_this_month_from_shelf_inventory: 1
+  is_deleted: false
+
+two:
+  purchase_price: 1
+  expecting_selling_price: 1
+  selling_price: 1
+  average_selling_price: 1
+  shipping: 1
+  sales: 1
+  number_of_products_sold: 1
+  monthly_listings: 1
+  number_of_listings_this_month: 1
+  current_listingds: 1
+  total_amount_of_shelf_inventory: 1
+  turnover_rate_for_the_current_month: 1
+  expedted_sales_for_this_month_from_shelf_inventory: 1
+  is_deleted: false
