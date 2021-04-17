@@ -10,7 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_28_061144) do
+ActiveRecord::Schema.define(version: 2021_04_17_233842) do
+
+  create_table "products", force: :cascade do |t|
+    t.integer "purchase_price"
+    t.integer "expecting_selling_price"
+    t.integer "selling_price"
+    t.integer "average_selling_price"
+    t.integer "shipping"
+    t.integer "sales"
+    t.integer "number_of_products_sold"
+    t.integer "monthly_listings"
+    t.integer "number_of_listings_this_month"
+    t.integer "current_listingds"
+    t.integer "total_amount_of_shelf_inventory"
+    t.integer "turnover_rate_for_the_current_month"
+    t.integer "expedted_sales_for_this_month_from_shelf_inventory"
+    t.boolean "is_deleted"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
